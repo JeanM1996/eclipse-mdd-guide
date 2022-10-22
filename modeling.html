@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Instalación de Eclipse Modeling Framework &#8212; How to Work MDD in Eclipse</title>
+    <title>Modelamiento y Validación &#8212; How to Work MDD in Eclipse</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Generar un nuevo proyecto de Ecore Modeling" href="new-project.html" />
-    <link rel="prev" title="How to Work MDD in Eclipse" href="intro.html" />
+    <link rel="prev" title="Generar un nuevo proyecto de Ecore Modeling" href="new-project.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -114,8 +113,8 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="install.html">
    Instalación de Eclipse Modeling Framework
   </a>
  </li>
@@ -124,8 +123,8 @@ const thebe_selector_output = ".output, .cell_output"
    Generar un nuevo proyecto de Ecore Modeling
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="modeling.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Modelamiento y Validación
   </a>
  </li>
@@ -219,7 +218,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Finstall.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmodeling.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -247,7 +246,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/install.md"
+        <a href="_sources/modeling.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -284,90 +283,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-la-opcion-install-new-software">
-   1. Seleccionar la opción Install New Software
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-all-available-sites">
-   2. Seleccionar –All Available Sites–
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-los-paquetes-a-instalar">
-   3. Seleccionar los paquetes a instalar
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#instalamos-los-paquetes">
-   3. Instalamos los paquetes
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Instalación de Eclipse Modeling Framework</h1>
+                <h1>Modelamiento y Validación</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-la-opcion-install-new-software">
-   1. Seleccionar la opción Install New Software
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-all-available-sites">
-   2. Seleccionar –All Available Sites–
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#seleccionar-los-paquetes-a-instalar">
-   3. Seleccionar los paquetes a instalar
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#instalamos-los-paquetes">
-   3. Instalamos los paquetes
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -375,33 +307,84 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="instalacion-de-eclipse-modeling-framework">
-<h1>Instalación de Eclipse Modeling Framework<a class="headerlink" href="#instalacion-de-eclipse-modeling-framework" title="Permalink to this headline">#</a></h1>
-<p>Para la instalación de Encore Modeling desde Eclipse se realiza los siguientes pasos:</p>
-<section id="seleccionar-la-opcion-install-new-software">
-<h2>1. Seleccionar la opción Install New Software<a class="headerlink" href="#seleccionar-la-opcion-install-new-software" title="Permalink to this headline">#</a></h2>
-<p>Dentro de Eclipse en el menu en la opción ‘Help’, seleccionamos la opción ‘Install New Software’.</p>
-<p><img alt="title" src="_images/img1.jpeg" /></p>
-</section>
-<section id="seleccionar-all-available-sites">
-<h2>2. Seleccionar –All Available Sites–<a class="headerlink" href="#seleccionar-all-available-sites" title="Permalink to this headline">#</a></h2>
-<p>El la ventana que se nos presenta del paso anterior seleccionamos –All Available Sites– para que nos presenten los paquetes que deseamos instalar</p>
-<p><img alt="title" src="_images/img2.jpeg" /></p>
-</section>
-<section id="seleccionar-los-paquetes-a-instalar">
-<h2>3. Seleccionar los paquetes a instalar<a class="headerlink" href="#seleccionar-los-paquetes-a-instalar" title="Permalink to this headline">#</a></h2>
-<p>Seleccionamos los paquetes:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="modelamiento-y-validacion">
+<h1>Modelamiento y Validación<a class="headerlink" href="#modelamiento-y-validacion" title="Permalink to this headline">#</a></h1>
+<p>Una vez generado nuestro proyecto de Ecore Modeling, podemos comenzar a modelar nuestro dominio. Para ello, se debe seguir los siguientes pasos:</p>
+<ol class="simple">
+<li><p>Accedemos al Viewpoint Modeling para generar nuestro dominio</p></li>
+</ol>
+<p><img alt="Step1" src="_images/modeling_step1.jpg" /></p>
+<ol class="simple">
+<li><p>Para generar una entidad debemos seleccionar la opción <strong>Class</strong> del apartado <strong>Classifier</strong> y arrastrarla al diagrama de clases (Panel <strong>Palette</strong>).
+<img alt="Step2" src="_images/modeling_step2.jpg" /></p></li>
+<li><p>Para cambiar el nombre de la entidad, debemos dar doble click sobre la entidad y escribir el nombre deseado en el apartado <strong>name</strong>.</p></li>
+</ol>
+<p><img alt="Step3" src="_images/modeling_step3.jpg" /></p>
+<ol class="simple">
+<li><p>Para agregar un atributo a la entidad, debemos seleccionar la entidad y seleccionar la <strong>quinta opción</strong> con lo que se agregara un atributo a la entidad.</p></li>
+</ol>
+<p><img alt="Step4" src="_images/modeling_step4.jpg" /></p>
+<ol class="simple">
+<li><p>Para definir un nombre al atributo debemos dar doble click sobre el atributo y escribir el nombre deseado en el apartado <strong>name</strong>.</p></li>
+</ol>
+<p><img alt="Step5" src="_images/modeling_step5.jpg" /></p>
+<ol class="simple">
+<li><p>Para definir un tipo de dato al atributo debemos dar doble click sobre el atributo y seleccionar la opción <strong>…</strong>* ubicada en <strong>EType</strong></p></li>
+</ol>
+<p><img alt="Step6" src="_images/modeling_step5.jpg" /></p>
+<ol class="simple">
+<li><p>Se desplegará una ventana con los tipos de datos disponibles, seleccionamos el tipo de dato deseado ** ** y seleccionamos la opción <strong>OK</strong>.</p></li>
+</ol>
+<p><img alt="Step7" src="_images/modeling_step6.jpg" /></p>
+<ol class="simple">
+<li><p>Para agregar una relación entre entidades en el panel <strong>Palette</strong> seleccionamos la opción <strong>Relation</strong> al seleccionar la <strong>Relation</strong> debemos dar click en la entidad origen y luego en la entidad destino.</p></li>
+</ol>
+<p><img alt="Step8" src="_images/modeling_step7.jpg" /></p>
+<ol>
+<li><p>El proceso sigue con la generación de los diversos modelos</p>
 <ul class="simple">
-<li><p>Ecore Diagram Editor</p></li>
-<li><p>EMF - Eclipse Modeling Framework SDK</p></li>
+<li><p>En el explorador del proyecto dar doble click en la opción <strong>nameModel.genmodel</strong>, luego dar click derecho sobre la opción nameModel e ir generando en orden secuencial cada una de las opciones que inician con la palabra <strong>Generate</strong>.</p></li>
 </ul>
-<p><img alt="title" src="_images/img3.jpeg" /></p>
-</section>
-<section id="instalamos-los-paquetes">
-<h2>3. Instalamos los paquetes<a class="headerlink" href="#instalamos-los-paquetes" title="Permalink to this headline">#</a></h2>
-<p>Una ves seleccionados los paquetes presionamos en ‘Next’ y posterior aceptamos la licencia, esperamos en tiempo de instalación y una vez finalizada reiniciamos Eclipse.</p>
-<p><img alt="title" src="_images/img4.png" /></p>
-</section>
+<ol class="simple">
+<li><p>Generate Model Code</p></li>
+<li><p>Generate Edit Code</p></li>
+<li><p>Generate Editor Code</p></li>
+</ol>
+</li>
+</ol>
+<p><img alt="Step9" src="_images/modeling_step8.jpg" /></p>
+<ol class="simple">
+<li><p>Se nos generaran diversos proyectos con terminanciones <strong>.edit</strong> y <strong>.editor</strong></p></li>
+</ol>
+<p><img alt="Step10" src="_images/modeling_step9.jpg" /></p>
+<ol class="simple">
+<li><p>Para validar debemos dar click derecho sobre el proyecto <strong>nameModel.editor</strong> y seleccionar la opción <strong>Run As &gt; Eclipse Application</strong>. Donde se nos desplegará una nueva ventana de Eclipse con el editor de nuestro modelo.</p></li>
+</ol>
+<p><img alt="Step11" src="_images/modeling_step10.jpg" /></p>
+<ol class="simple">
+<li><p>Creamos un nuevo proyecto general accediendo a la opción <strong>File &gt; New &gt; Project</strong> y seleccionamos la opción <strong>General &gt; Project</strong>. Luego definimos un nombre en la ventana seleccionamos la opción <strong>Finish</strong>.</p></li>
+</ol>
+<p><img alt="Step12" src="_images/modeling_step11.jpg" /></p>
+<ol class="simple">
+<li><p>Dentro del proyecto creado, creamos un nuevo archivo de tipo <strong>EMF Model</strong> accediendo a la opción <strong>File &gt; New &gt; Other</strong> y seleccionamos la opción <strong>EMF Model Creation Wizard</strong>. Luego definimos un nombre en la ventana seleccionamos la opción <strong>Next</strong>.</p></li>
+</ol>
+<p><img alt="Step13" src="_images/modeling_step12.jpg" /></p>
+<ol class="simple">
+<li><p>Damos click en <strong>Next</strong></p></li>
+</ol>
+<p><img alt="Step14" src="_images/modeling_step13.jpg" /></p>
+<ol class="simple">
+<li><p>Elegimos el modelo que deseamos crear y damos click en <strong>Finish</strong>. Se nos creara en el proyecto la entidad seleccionada</p></li>
+</ol>
+<p><img alt="Step15" src="_images/modeling_step14.jpg" /></p>
+<ol class="simple">
+<li><p>Para generar la relación damos click derecho sobre la entidad y seleccionamos la opción <strong>New Child &gt; entity</strong>. Validadndo que esta se agrega en nuestro tree</p></li>
+</ol>
+<p><img alt="Step16" src="_images/modeling_step15.jpg" /></p>
+<ol class="simple">
+<li><p>Definimos los datos para cada atributo en el <strong>panel inferior</strong> en el campo <strong>value</strong></p></li>
+</ol>
+<p><img alt="Step17" src="_images/modeling_step16.jpg" /></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -431,19 +414,12 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="new-project.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">How to Work MDD in Eclipse</p>
+            <p class="prev-next-title">Generar un nuevo proyecto de Ecore Modeling</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="new-project.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Generar un nuevo proyecto de Ecore Modeling</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
